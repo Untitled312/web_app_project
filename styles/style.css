@@ -46,6 +46,12 @@ a:hover {
     text-decoration: underline;
 }
 
+a:focus {
+    color: #de530e;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .nav__link {
     padding: 2px;
 }
