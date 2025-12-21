@@ -1,0 +1,68 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+ font-family: 'Montserrat', system-ui, sans-serif;
+}
+
+button, .button {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.button--primary {
+    background-color: #cea74d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.button--primary:hover {
+    background-color: transparent;
+    color: #c69420;
+    border: 2px solid #de920e;
+}
+
+.button--primary:focus {
+    background-color: transparent;
+    color: #c69420;
+    border: 2px solid #de530e;
+}
+
+a {
+    color: #c69420;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c69420;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav__link {
+    padding: 2px;
+}
+
+.footer__link {
+    padding: 2px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    transition: border-color 0.2s ease;
+}
+
+input[type="email"]:focus {
+    outline: none;
+    border-color: #c69420;
+}
