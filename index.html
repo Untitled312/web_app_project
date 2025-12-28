@@ -9,10 +9,12 @@
 </head>
 <body>
  <header class="header">
-  <img class="header__search-icon" src="assets/icons/Search.png" alt="Поиск">
-  <img src="assets/img/logo.png" alt="Логотип сайта Avion">
-  <img class="header__cart-icon" src="assets/icons/Shopping--cart.png" alt="Корзина">
-  <img class="header__avatar-icon" src="assets/icons/User--avatar.png" alt="Аватар">
+  <div class ="header__container">
+    <img class="header__search-icon" src="assets/icons/Search.png" alt="Поиск">
+    <img src="assets/img/logo.png" alt="Логотип сайта Avion">
+    <img class="header__cart-icon" src="assets/icons/Shopping--cart.png" alt="Корзина">
+    <img class="header__avatar-icon" src="assets/icons/User--avatar.png" alt="Аватар">
+  </div>
   <nav class="header__nav nav">
    <ul class="nav__list">
     <li class="nav__item"><a class="nav__link" href="#plant_pots">Горшки для растений</a></li>
@@ -29,44 +31,44 @@
  <main>
    <section class="about" id="about_us">
      <div class="container">
-       <h1 class="about__title">Мебельная фабрика Стильные кухни.</h1>
        <div class="about__content">
-         <img class="about__image" src="assets/img/p_chairLarge.png" alt="Пластиковый стул большой">
          <div class="about__text">
+           <h1 class="about__title">Мебельная фабрика Стильные кухни.</h1>
+           <button class="button button--primary">Смотреть коллекцию</button>
            <p class="about__description">Современные технологии достигли такого уровня, что существующая 
            теория в&nbsp;значительной степени обусловливает важность укрепления 
            моральных ценностей! Вот вам яркий пример современных тенденций&nbsp;&mdash; 
            начало повседневной работы по&nbsp;формированию позиции обеспечивает 
            широкому кругу (специалистов) участие в&nbsp;формировании системы массового участия.</p>
-           <button class="button button--primary">Смотреть коллекцию</button>
          </div>
+         <img class="about__image" src="assets/img/p_chairLarge.png" alt="Пластиковый стул большой">
        </div>
      </div>
    </section>
    
    <section class="features">
      <div class="container">
-       <h2 class="section__title">Почему наш бренд особенный</h2>
-       <div class="features__grid cards">
-         <article class="feature card">
+       <div class="features-grid__cards">
+         <h2 class="section__title">Почему наш бренд особенный</h2>
+         <article class="feature__card1">
            <img class="feature__icon" src="assets/icons/Delivery.png" alt="Доставка">
            <h3 class="feature__title">Стандарт - следующий день.</h3>
            <p class="feature__description">А&nbsp;также предприниматели в&nbsp;сети интернет неоднозначны и&nbsp;будут 
            указаны как претенденты на&nbsp;роль ключевых факторов.</p>
          </article>
-         <article class="feature card">
+         <article class="feature__card2">
            <img class="feature__icon" src="assets/icons/Checkmark--outline.png" alt="Качество">
            <h3 class="feature__title">Сделано настоящими творцами.</h3>
            <p class="feature__description">Таким образом, глубокий уровень погружения способствует подготовке и&nbsp;
            реализации своевременного выполнения сверхзадачи.</p>
          </article>
-         <article class="feature card">
+         <article class="feature__card3">
            <img class="feature__icon" src="assets/icons/Purchase.png" alt="Покупка">
            <h3 class="feature__title">Цены, которые Вы нигде не увидите.</h3>
            <p class="feature__description">Для современного мира базовый вектор развития требует от&nbsp;нас анализа 
            распределения внутренних резервов и&nbsp;ресурсов.</p>
          </article>
-         <article class="feature card">
+         <article class="feature__card4">
            <img class="feature__icon" src="assets/icons/Sprout.png" alt="Росток">
            <h3 class="feature__title">Перерабатываемые материалы.</h3>
            <p class="feature__description">Есть над чем задуматься: активно развивающиеся страны третьего мира обнародованы.</p>
@@ -77,82 +79,84 @@
    
    <section class="new-ceramics">
      <div class="container">
-       <h2 class="section__title">Новая керамика</h2>
-       <div class="products__grid cards">
-         <article class="product-card card">
+       <div class="products-grid__cards">
+         <h2 class="section__title">Новая керамика</h2>
+         <article class="product__card1">
            <img class="product-card__image" src="assets/img/p_chair.png" alt="Стул пластиковый">
            <div class="product-card__content">
              <h3 class="product-card__name">Шикарный стул</h3>
              <div class="product-card__price">£250</div>
            </div>
          </article>
-         <article class="product-card card">
+         <article class="product__card2">
            <img class="product-card__image" src="assets/img/vase_set.png" alt="Сет из ваз">
            <div class="product-card__content">
              <h3 class="product-card__name">Набор ваз в деревенском стиле</h3>
              <div class="product-card__price">£155</div>
            </div>
          </article>
-         <article class="product-card card">
+         <article class="product__card3">
            <img class="product-card__image" src="assets/img/vase.png" alt="Ваза">
            <div class="product-card__content">
              <h3 class="product-card__name">Шелковистая ваза</h3>
              <div class="product-card__price">£125</div>
            </div>
          </article>
-         <article class="product-card card card--featured">
+         <article class="product__card4">
            <img class="product-card__image" src="assets/img/lamp.png" alt="Лампа">
            <div class="product-card__content">
              <h3 class="product-card__name">Лампа Люси</h3>
              <div class="product-card__price">£399</div>
            </div>
          </article>
+         <button class="button__product button--primary">Смотреть коллекцию</button>
        </div>
-       <button class="button button--primary">Смотреть коллекцию</button>
      </div>
    </section>
    
    <section class="popular-products" id="best_sellers">
      <div class="container">
-       <h2 class="section__title">Наши популярные продукты</h2>
-       <div class="products__grid cards">
-         <article class="product-card card card--featured">
+       <div class="products-grid__cards">
+         <h2 class="section__title">Наши популярные продукты</h2>
+         <article class="product__card1">
            <img class="product-card__image" src="assets/img/sofa.png" alt="Диван">
            <div class="product-card__content">
              <h3 class="product-card__name">Диван из замши</h3>
              <div class="product-card__price">£980</div>
            </div>
          </article>
-         <article class="product-card card">
+         <article class="product__card2">
            <img class="product-card__image" src="assets/img/p_chair.png" alt="Ваза">
            <div class="product-card__content">
              <h3 class="product-card__name">Шикарный стул</h3>
              <div class="product-card__price">£250</div>
            </div>
          </article>
-         <article class="product-card card">
+         <article class="product__card3">
            <img class="product-card__image" src="assets/img/chair.png" alt="Лампа">
            <div class="product-card__content">
              <h3 class="product-card__name">Шикарный стул</h3>
              <div class="product-card__price">£250</div>
            </div>
          </article>
+         <button class="button__product button--primary">Смотреть коллекцию</button>
        </div>
-       <button class="button button--primary">Смотреть коллекцию</button>
      </div>
    </section>
    
    <section class="newsletter">
      <div class="container">
-       <h2 class="section__title">Присоединяйся к клубу</h2>
        <div class="newsletter__content">
-         <p class="newsletter__description">Учитывая ключевые сценарии поведения, граница обучения кадров играет важную 
-         роль в&nbsp;формировании прогресса профессионального сообщества. Принимая 
-         во&nbsp;внимание показатели успешности, сплочённость команды профессионалов 
-         играет определяющее значение для глубокомысленных рассуждений!</p>
+         <article class="newsletter__text">
+          <h2 class="section__title">Присоединяйся к клубу</h2>
+          <p class="newsletter__description">Учитывая ключевые сценарии поведения, граница обучения кадров играет важную 
+          роль в&nbsp;формировании прогресса профессионального сообщества. Принимая 
+          во&nbsp;внимание показатели успешности, сплочённость команды профессионалов 
+          играет определяющее значение для глубокомысленных рассуждений!</p>
+         </article>
          <form class="newsletter__form">
            <input class="newsletter__input" type="email" placeholder="your@email.com" required>
-           <button class="button button--primary" type="submit">Зарегистрироваться</button>
+           <button class="button__newsletter button--primary" type="submit">Зарегистрироваться</button>
          </form>
        </div>
      </div>
@@ -160,10 +164,9 @@
    
    <section class="about" id="contact_us">
      <div class="container">
-       <h2 class="section__title">От лондонской студии до глобального бренда с более чем 400 торговыми точками</h2>
        <div class="about__content">
-         <img class="about__image" src="assets/img/room.png" alt="Комната">
          <div class="about__text">
+           <h2 class="section__title">От лондонской студии до глобального бренда с более чем 400 торговыми точками</h2>
            <p class="about__description">Значимость этих проблем настолько очевидна, что новая модель организационной 
            деятельности позволяет выполнить важные задания по&nbsp;разработке форм воздействия.</p>
            <p class="about__description">Внезапно, интерактивные прототипы, которые представляют собой яркий пример 
@@ -172,6 +175,7 @@
            их&nbsp;статус бесполезности.</p>
            <button class="button button--primary">Связаться</button>
          </div>
+         <img class="about__image" src="assets/img/room.png" alt="Комната">
        </div>
      </div>
    </section>
