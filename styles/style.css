@@ -78,9 +78,17 @@ a:focus {
 .about__content {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 1.5rem;
     margin-top: 2rem;
-    justify-content: space-around;
+    text-align: center;
+    justify-items: center;
+}
+
+.about__description {
+    margin-bottom: 1rem;
+}
+
+.about__title {
+    margin-bottom: 1rem;
 }
 
 .footer__list {
@@ -104,6 +112,7 @@ a:focus {
 
 .section__title {
     grid-area: title;
+    margin-bottom: 1rem;
 }
 
 .feature__card1 {
