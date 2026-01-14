@@ -5,3 +5,5 @@
 
 ## Ссылки
 - [Публичная страница на GitHub Pages](https://untitled312.github.io/web_app_project/)
+
+![Компьютер](assets\img\qr.png)
