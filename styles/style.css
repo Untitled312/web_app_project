@@ -72,7 +72,7 @@ a:focus {
 .header__container {
     display: grid;
     grid-template-columns: 50px 1fr 50px 50px;
-    justify-items: center
+    justify-items: center;
 }
 
 .about__content {
@@ -96,8 +96,10 @@ a:focus {
         "content1 content2 content3 content4";
     gap: 2rem;
     margin-top: 2rem;
-    justify-content: space-around;
-    justify-items: center
+    justify-content: center;  
+    justify-items: center;    
+    margin-left: auto;       
+    margin-right: auto;
 }
 
 .section__title {
@@ -130,8 +132,10 @@ a:focus {
         "button button button button";
     gap: 2rem;
     margin-top: 2rem;
-    justify-content: space-around;
-    justify-items: center
+    justify-content: center;  
+    justify-items: center;    
+    margin-left: auto;       
+    margin-right: auto;
 }
 
 .product__card1 {
@@ -160,7 +164,7 @@ a:focus {
     gap: 5rem;
     margin-top: 2rem;
     justify-content: space-around;
-    justify-items: center
+    justify-items: center;
 }
 
 .newsletter__text {
@@ -255,8 +259,6 @@ input[type="email"]:focus {
             "content4";
         gap: 1.5rem;
         max-width: 400px;
-        margin-left: auto;
-        margin-right: auto;
     }
     
     .products-grid__cards {
@@ -270,8 +272,6 @@ input[type="email"]:focus {
             "button";
         gap: 1.5rem;
         max-width: 400px;
-        margin-left: auto;
-        margin-right: auto;
     }
     
     .nav__list {
@@ -330,16 +330,13 @@ input[type="email"]:focus {
     }
     
     .products-grid__cards {
-        gap: 1.25rem;
         max-width: 300px;
     }
     
-    .product__card1,
-    .product__card2,
-    .product__card3,
-    .product__card4 {
+    .product__card {
         max-width: 250px;
         height: 280px;
+        margin-bottom: 10rem;
     }
     
     .section__title {
