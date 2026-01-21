@@ -4,6 +4,7 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Avion</title>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
  <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -15,6 +16,11 @@
     <img class="header__cart-icon" src="assets/icons/Shopping--cart.png" alt="Корзина">
     <img class="header__avatar-icon" src="assets/icons/User--avatar.png" alt="Аватар">
   </div>
+  <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false">
+  <span class="menu-toggle__line"></span>
+  <span class="menu-toggle__line"></span>
+  <span class="menu-toggle__line"></span>
+  </button>
   <nav class="header__nav nav">
    <ul class="nav__list">
     <li class="nav__item"><a class="nav__link" href="#plant_pots">Горшки для растений</a></li>
@@ -231,7 +237,7 @@
          </form>
        </div>
      </div>
-     
+  
      <div class="footer__bottom">
        <p class="footer__copyright">Все права защищены 2022 Avion LTD</p>
        <div class="footer__social">
@@ -248,5 +254,6 @@
      </div>
    </div>
  </footer>
+ <script src="scripts/menu.js"></script>
 </body>
 </html>
