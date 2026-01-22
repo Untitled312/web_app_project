@@ -4,7 +4,8 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Avion</title>
- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=arrow_upward&display=swap">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
  <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -21,7 +22,7 @@
   <span class="menu-toggle__line"></span>
   <span class="menu-toggle__line"></span>
   </button>
-  <nav class="header__nav nav">
+  <nav class="header__nav nav" id="mainNav">
    <ul class="nav__list">
     <li class="nav__item"><a class="nav__link" href="#plant_pots">Горшки для растений</a></li>
     <li class="nav__item"><a class="nav__link" href="#ceramics">Керамика</a></li>
@@ -254,6 +255,8 @@
      </div>
    </div>
  </footer>
+ <button class="scroll-top" id="scrollTop" aria-label="Наверх"><i class="material-icons" style="font-size:25px;">arrow_upward</i></button>
  <script src="scripts/menu.js"></script>
+ <div class="nav-overlay"></div>
 </body>
 </html>
