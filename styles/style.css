@@ -98,8 +98,14 @@ a:focus {
 
 .header__container {
     display: grid;
-    grid-template-columns: 50px 1fr 50px 50px;
+    grid-template-columns: repeat(2, 50px) auto repeat(2, 50px);
     justify-items: center;
+    align-items: center;
+    height: 44px;
+}
+
+.header__logo {
+    grid-column: 3;
 }
 
 .menu-toggle {
@@ -417,9 +423,18 @@ input[type="email"]:focus {
     }
     
     .menu-toggle {
-        display: flex; 
+        display: flex;
+    }
+    
+    .header__container {
+        grid-template-columns: repeat(1, 50px) auto repeat(3, 50px);
     }
 
+    .header__logo {
+        grid-column: 2;
+        place-items: center;
+        margin-left: 100px;
+    }
     .nav {
         position: fixed;
         top: 0;
